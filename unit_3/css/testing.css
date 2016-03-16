@@ -4,13 +4,14 @@
 }
 
 body {
-	background-image: url("IMG_7390 (1).jpg");
+	background-image: url("http://s8.postimg.org/fiy2wp6np/IMG_7390.jpg");
 	background-size: 100%;
 }
 
-aside 
+aside {
 	float: right;
 }
+
 
 nav a {
 	padding: 40px;
