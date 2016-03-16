@@ -6,6 +6,7 @@
 body {
 	background-image: url("http://s8.postimg.org/fiy2wp6np/IMG_7390.jpg");
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 aside {
@@ -31,6 +32,34 @@ h1 {
 	text-transform: uppercase;
 }
 
+main {
+	margin-top: 350px;
+	background-color: #8AE0D4;
+}
+
+h3 {
+	padding: 0px;
+	font-family: Arial, serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: white;
+}
+
+p {
+	font-family: Arial, serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+}
+
+p a {
+	font-family: Arial, serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+}
+
 ul {
 	padding-left: 20px;
 	color: white;
@@ -44,4 +73,13 @@ li a {
 	text-decoration: none;
 	font-style: italic;
 	text-transform: lowercase;
+}
+
+footer a {
+	font-family: Arial, serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #8AE0D4;
+	text-decoration: none;
+	text-align: center;
 }
