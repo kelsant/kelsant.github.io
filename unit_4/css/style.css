@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:800);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url("file:///Users/mallorywood/Desktop/kelsant.github.io/unit_4/images/vscolylelanding.JPG");
+	background-size: 100%;
+	font-size: 16px;
+	background-repeat: no-repeat;
+	background-color: #8AE0D4;
+	/*background-color: #70BDC9;*/
+}
+
+aside {
+	float: right;
+}
+
+nav a {
+	padding: 40px;
+	color: #FFFFFF; 
+	font-family: "Noto Sans", sans-serif; 
+	font-size: 1em;
+	letter-spacing: 1px;
+	font-weight: 800;
+	text-decoration: none;
+}
+
+h1 {
+	padding: 40px;
+	font-family: "Merriweather Sans", sans-serif;
+	font-size: 4em;
+	font-weight: 800;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+main { 
+	top: 0;
+	/*width: 100vh;*/
+	margin-top: 100vh;
+	/*margin-bottom: 0;*/
+	background-size: 100%;
+	/*background-color: #8AE0D4;*/
+}
+
+section {
+	padding: auto;
+}
+
+h3 {
+	padding: 0;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+p {
+	font-family: "Lora", serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	letter-spacing: .5px;
+	color: #FFFFFF;
+	max-width: 25em;
+	margin: auto;
+}
+
+p a {
+	font-family: "Lora", serif;
+	font-size: 1em;
+	letter-spacing: .5px;
+	line-height: 1.5em:;
+	color: #8AE0D4;
+	text-decoration: none;
+}
+
+ul {
+	padding-left: 1em;
+	list-style: none;
+	/*color: #F34EBE;*/
+}
+
+#socialnav {
+	padding-left: 1em;
+	list-style: none;
+}
+
+li a {
+	color: #F34EBE;
+	font-family: "Oswald", sans-serif;
+	font-size: 1.5em;
+	font-weight: 800px;
+	text-decoration: none;
+	/*font-style: italic;*/
+	text-transform: lowercase;
+}
+
+.bodysection {
+	width: 30em;
+	margin: 2em auto;
+	text-align: center;
+	background-color: #F34EBE; 
+} 
+
+#lowlifeEP {
+	/*width: 100vh;*/
+	/*height: 100vh;*/
+	width: 25em;
+	height: 25em;
+	text-align: center;
+}
+
+/*#ep {*/
+	padding: 0;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+#garageshow {
+	width: 25em;
+	height: 25em;
+	text-align: center;
+}
+
+#showdates {
+	font-family: "Lora", serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	letter-spacing: .5px;
+	color: #FFFFFF;
+	max-width: 25em;
+	margin: auto;
+	list-style: none;
+}
+
+#nextshow {
+	padding: 0;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+#sfbay {
+	width: 25em;
+	height: 25em;
+	text-align: center;
+}
+
+#lylepineapple {
+	width: 25em;
+	height: 25em;
+	text-align: center;
+}
+
+#hey {
+	padding: 0;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: #FFFFFF;
+	width: 10em;
+	margin: 1em auto;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	background-color: #F34EBE;
+	top: 0;
+	margin-bottom: 0;
+	background-size: 100%;
+}
+
+footer a {
+	font-family: "Noto Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 400:;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: auto;
+}

@@ -34,6 +34,7 @@ h1 {
 
 main {
 	margin-top: 350px;
+	background-position: fixed;
 	background-color: #8AE0D4;
 }
 
