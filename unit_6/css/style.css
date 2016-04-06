@@ -1,0 +1,344 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:800);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+} 
+
+.wrapper2 {
+	background-color:#FFC675;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+body {
+	/*background-image: url("http://i.imgur.com/PGTERCv.jpg");*/
+	background-size: 100%;
+	font-size: 16px;
+	background-repeat: no-repeat;
+	background-color: #8AE0D4;
+	/*background-color: #70BDC9;*/
+	/*background-color: #FFE2B8;*/
+}
+
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	float: right;
+	background-color: #FFC675;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav a {
+	margin: 0 32px;
+	padding-bottom: 3px;
+	color: #FFFFFF; 
+	font-family: "Noto Sans", sans-serif; 
+	font-size: 1em;
+	letter-spacing: 1px;
+	font-weight: 800;
+	text-decoration: none;
+	background-color: none;
+	text-align: center;
+}
+
+nav a:hover {
+	color: #F34EBE;
+	border-bottom: 1px solid #F34EBE;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+h1 {
+	padding: 40px;
+	font-family: "Merriweather Sans", sans-serif;
+	font-size: 4em;
+	font-weight: 800;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+main { 
+	top: 0;
+	margin-top: 75vh;
+	background-size: 100%;
+}
+
+h3 {
+	padding: 0;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+p {
+	font-family: "Lora", serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	letter-spacing: .5px;
+	color: #FFFFFF;
+	max-width: 25em;
+	margin: auto;
+}
+
+p a {
+	font-family: "Lora", serif;
+	font-size: 1em;
+	letter-spacing: .5px;
+	line-height: 1.5em:;
+	color: #8AE0D4;
+	text-decoration: none;
+}
+
+ul {
+	padding-left: 1em;
+	list-style: none;
+	background-color: none;
+	color: #FFFFFF;
+	font-size: 2em;
+}
+
+div ul a{
+	color: #FFFFFF;
+}
+
+div ul a:hover {
+	color: #8AE0D4;
+}
+
+.socialnav {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.socialfooter {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
+
+/*#socialnav {*/
+	padding-left: 1em;
+	list-style: none;
+}
+
+#socialfooter {
+    text-align: center;
+    top: 0px;
+    margin-bottom: 0px;
+    background-size: 100%;
+    background-color: rgb(255, 149, 126);
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/*li a {*/
+	color: #FFFFFF;
+	/*font-family: "Oswald", sans-serif;*/
+	/*font-size: 2.5em;*/
+	font-weight: 800px;
+	text-decoration: none;
+	/*font-style: italic;*/
+	/*text-transform: lowercase;*/
+}
+
+li a:hover {
+	color: #8AE0D4;
+}
+
+section {
+	padding:50px 0;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+.bodysection {
+	width: 46%;
+	margin: 2% auto;
+	text-align: center;
+	/*background-color: #F34EBE; */
+
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+} 
+
+.bodysection img {
+	max-width: 400px;
+	display: block;
+	margin: auto;
+}
+
+footer div a {
+	font-family: "Noto Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 400:;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: auto .5em;
+
+	/*text-align: center;*/
+	/*background-color: #F34EBE;*/
+	/*top: 0;*/
+	/*margin-bottom: 0;*/
+	/*background-size: 100%;*/
+
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer span a {
+	font-family: "Noto Sans", sans-serif;
+	font-size: .8em;
+	font-weight: 400:;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-top: 5vh;
+	display: inline-block;
+
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer a:hover {
+	color: #8AE0D4;
+}
+
+#socialfooter {
+	float: center;
+	font-size: 1.5em
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px; 
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px; 
+    float: right;   
+    width: 62%;
+}
+
+/*#left {*/
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+   
+}
+
+/*#right {*/
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+   
+}
+
+
+
+/*#lowlifeEP {*/
+	/*width: 100vh;*/
+	/*height: 100vh;*/
+	width: 25em;
+	height: 25em;
+	text-align: center;
+}
+
+/*#liveshow {*/
+	width: 25em;
+	height: 25em;
+	text-align: center;
+}
+
+/*#showdates {*/
+	font-family: "Lora", serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	letter-spacing: .5px;
+	color: #FFFFFF;
+	max-width: 25em;
+	margin: auto;
+	list-style: none;
+}
+
+/*#nextshow {*/
+	padding: 0;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+/*#sfbay {*/
+	width: 25em;
+	height: 25em;
+	text-align: center;
+}
+
+/*#lylepineapple {*/
+	width: 25em;
+	height: 25em;
+	text-align: center;
+}
+
+/*#hey {*/
+	padding: 0;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+/*hr {*/
+	border: none;
+	height: 3px;
+	background-color: #FFFFFF;
+	width: 10em;
+	margin: 1em auto;
+	text-align: center;
+}
