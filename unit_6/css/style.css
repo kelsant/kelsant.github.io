@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Cantarell);;
 @import url(https://fonts.googleapis.com/css?family=Lora);
 @import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:800);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
@@ -10,51 +10,44 @@
 }
 
 .wrapper {
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
     width: 90%;
     margin: auto;
 } 
 
-.wrapper2 {
-	background-color:#FFC675;
-	border: 1px black solid;
-    padding: 20px;
-}
-
 body {
-	/*background-image: url("http://i.imgur.com/PGTERCv.jpg");*/
+	background-image: url("http://i.imgur.com/PGTERCv.jpg");
 	background-size: 100%;
-	font-size: 16px;
+	font-size: 20px;
 	background-repeat: no-repeat;
 	background-color: #8AE0D4;
-	/*background-color: #70BDC9;*/
-	/*background-color: #FFE2B8;*/
+}
+
+.body2 {
+	background-image: none;
+	background-size: 100%;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-color: #8AE0D4;
 }
 
 header {
-	background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
+    padding: auto;
 }
 
 nav {
 	float: right;
-	background-color: #FFC675;
-	background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
+    padding: auto;
+    padding-top: 1em;
 }
 
 nav a {
 	margin: 0 32px;
 	padding-bottom: 3px;
 	color: #FFFFFF; 
-	font-family: "Noto Sans", sans-serif; 
+	font-family: "Cantarell", sans-serif; 
 	font-size: 1em;
 	letter-spacing: 1px;
-	font-weight: 800;
+	font-weight: 400;
 	text-decoration: none;
 	background-color: none;
 	text-align: center;
@@ -75,9 +68,9 @@ nav a:hover {
 }
 
 h1 {
-	padding: 40px;
+	padding: auto;
 	font-family: "Merriweather Sans", sans-serif;
-	font-size: 4em;
+	font-size: 3.2em;
 	font-weight: 800;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -86,14 +79,13 @@ h1 {
 
 main { 
 	top: 0;
-	margin-top: 75vh;
 	background-size: 100%;
 }
 
 h3 {
 	padding: 0;
-	font-family: "Noto Sans", sans-serif;
-	font-size: 3em;
+	font-family: "Cantarell", sans-serif;
+	font-size: 2.5em;
 	font-weight: 400;
 	color: #FFFFFF;
 }
@@ -118,11 +110,13 @@ p a {
 }
 
 ul {
-	padding-left: 1em;
+	/*padding-left: 1em;*/
+	margin: 70vh; 
 	list-style: none;
 	background-color: none;
 	color: #FFFFFF;
 	font-size: 2em;
+	text-align: center;
 }
 
 div ul a{
@@ -134,15 +128,18 @@ div ul a:hover {
 }
 
 .socialnav {
-	background-color: #E89C6C;
-    border: 1px black solid;
     padding: 20px;
+    margin: 70vh; 
+	list-style: none;
+	background-color: none;
+	color: #FFFFFF;
+	font-size: 2em;
+	text-align: center;
 }
 
 .socialfooter {
-	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+	background-color: #F34EBE;
+    padding: 1em;
     text-align: center;
 }
 
@@ -151,7 +148,7 @@ div ul a:hover {
 	list-style: none;
 }
 
-#socialfooter {
+/*#socialfooter {*/
     text-align: center;
     top: 0px;
     margin-bottom: 0px;
@@ -176,7 +173,7 @@ li a:hover {
 }
 
 section {
-	padding:50px 0;
+	padding:1.5em 0;
 	text-align: center;
 }
 
@@ -188,11 +185,7 @@ img {
 	width: 46%;
 	margin: 2% auto;
 	text-align: center;
-	/*background-color: #F34EBE; */
-
-	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+	background-color: #F34EBE; 
 } 
 
 .bodysection img {
@@ -202,68 +195,39 @@ img {
 }
 
 footer div a {
-	font-family: "Noto Sans", sans-serif;
-	font-size: 1.5em;
+	font-family: "Cantarell", sans-serif;
+	font-size: 2em;
 	font-weight: 400:;
 	color: #FFFFFF;
 	text-decoration: none;
 	margin: auto .5em;
+	
 
 	/*text-align: center;*/
-	/*background-color: #F34EBE;*/
 	/*top: 0;*/
 	/*margin-bottom: 0;*/
 	/*background-size: 100%;*/
-
-	background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
 }
 
 footer span a {
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Cantarell", sans-serif;
 	font-size: .8em;
 	font-weight: 400:;
 	color: #FFFFFF;
 	text-decoration: none;
-	margin-top: 5vh;
+/*	margin-top: 5vh;*/
 	display: inline-block;
-
-	background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
 }
 
 footer a:hover {
 	color: #8AE0D4;
 }
 
-#socialfooter {
+/*#socialfooter {
 	float: center;
 	font-size: 1.5em
-}
-
-#two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#left {
-    background-color: #E582A2;
-    border: 1px black solid;
-    padding: 20px; 
-    float: left;
-    width: 30%;
-}
-
-#right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px; 
-    float: right;   
-    width: 62%;
-}
+	background-color: #F34EBE;
+}*/
 
 /*#left {*/
     background-color: violet;
