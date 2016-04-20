@@ -1,0 +1,370 @@
+@import url(https://fonts.googleapis.com/css?family=Cantarell);;
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:800);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+} 
+
+body {
+	background-image: url("http://i.imgur.com/PGTERCv.jpg");
+	background-size: 100%;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-color: #8AE0D4;
+}
+
+.body2 {
+	background-image: none;
+	background-size: 100%;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-color: #8AE0D4;
+}
+
+header {
+    padding: auto;
+}
+
+nav {
+	float: right;
+    padding: auto;
+    padding-top: 1em;
+}
+
+nav a {
+	margin: 0 1em;
+	padding-bottom: .15em;
+	color: #FFFFFF; 
+	font-family: "Cantarell", sans-serif; 
+	font-size: 1em;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: none;
+	text-align: center;
+}
+
+nav a:hover {
+	color: #9379FF;
+	border-bottom: 1px solid #9379FF;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+h1 {
+	/*padding: auto;*/
+	font-family: "Merriweather Sans", sans-serif;
+	font-size: 3.2em;
+	font-weight: 800;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: .3em;
+}
+
+h2 {
+	font-family: "Merriweather Sans", sans-serif;
+	font-size: 2.2em;
+	font-weight: 800;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: auto;
+}
+
+hr {
+	border: none;
+	height: .15em;
+	background-color: #FFFFFF;
+	width: 12em;
+}
+
+.hr2 {
+	border: none;
+	height: .15em;
+	background-color: #FFFFFF;
+	width: 3em;
+	margin: auto;
+}
+
+main { 
+	top: 0;
+	background-size: 100%;
+}
+
+h3 {
+	padding: 0;
+	font-family: "Cantarell", sans-serif;
+	font-size: 2.5em;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+p {
+	font-family: "Lora", serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	letter-spacing: .5px;
+	color: #FFFFFF;
+	max-width: 25em;
+	margin: auto;
+	margin-bottom: 1.5em;
+}
+
+p a {
+	font-family: "Lora", serif;
+	font-size: 1em;
+	letter-spacing: .5px;
+	line-height: 1.5em:;
+	color: #8AE0D4;
+	text-decoration: none;
+}
+
+ul {
+	margin: 70vh; 
+	list-style: none;
+	background-color: none;
+	color: #FFFFFF;
+	font-size: 2em;
+	text-align: center;
+}
+
+div ul a{
+	color: #FFFFFF;
+}
+
+div ul a:hover {
+	color: #8AE0D4;
+}
+
+.socialnav {
+    padding: 1em;
+    margin: 70vh; 
+	list-style: none;
+	background-color: none;
+	color: #FFFFFF;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.footer {
+	background-size: 100%;
+	margin-top: 70vh;
+}
+
+.footer2 {
+	background-size: 100%;
+	margin: 0;
+}
+
+.socialfooter {
+	background-color: none;
+    padding: .5em;
+    text-align: center;
+}
+
+li a:hover {
+	color: #8AE0D4;
+}
+
+section {
+	padding-left:.5em;
+}
+
+img {
+	width: 100%;
+}
+
+.bandcamp {
+	list-style: none;
+	color: #FFFFFF;
+	font-size: 2.5em;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+.bodysection {
+	width: 70%;
+	margin: 2% auto;
+	text-align: center;
+} 
+
+.bodysection img {
+	max-width: 20em;
+	display: block;
+	margin: auto;
+}
+
+.bandcamp {
+	text-align: center;
+}
+
+footer div a {
+	font-family: "Cantarell", sans-serif;
+	font-size: 3em;
+	padding: 0 1.5em;
+	font-weight: 400:;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: auto .5em;
+}
+
+footer span a {
+	font-family: "Cantarell", sans-serif;
+	font-size: .8em;
+	font-weight: 400:;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+}
+
+footer a:hover {
+	color: #9379FF;
+}
+
+#epimg {
+	float: left;
+	width: 50%;
+}
+
+#musicp {
+	float: right;
+	width: 50%;
+	margin-top: 5em;
+}
+
+#mobile {
+	display: none;
+}
+
+#email {
+	text-decoration: none;
+	font-family: "Lora", serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	letter-spacing: .5px;
+	color: #FFFFFF;
+}
+
+#email:hover {
+	color: #9379FF;
+}
+
+@media only screen and (max-width: 950px) {
+	.socialfooter {
+		padding: 0;
+	}
+	footer div a {
+		padding: 0 .5em;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	body {
+		font-size: 18px;
+	}
+
+	.bodysection {
+		width: 100%;
+	}
+
+	nav {
+		float: none;
+		padding:auto;
+		padding-top: 0;
+		text-align: center;
+	}
+
+	section {
+		padding-left: 0;
+	}
+
+	h1 {
+		font-size: 2em;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	#epimg {
+		float: none;
+		display: block;
+		width: 75%;
+	}
+
+	#musicp {
+		float: none;
+		width: 75%;
+		display: block;
+		margin-top: 2em;
+	}
+
+}
+
+@media only screen and (max-width: 515px) {
+	body {
+		font-size: 16px;
+		margin: 0;
+	}
+
+	#mobile {
+		display: block;
+		text-align: left;
+	}
+
+	nav a {
+		float: none;
+		width: auto;
+		padding: .25em 0;
+		display: none;
+	}
+
+	nav:hover a {
+		display: block;
+	}
+
+	footer div a {
+		padding: 0;
+		font-size: 3em;
+		display: block;
+	}
+
+	.bodysection {
+		width: 100%;
+		margin: 0;
+	}
+
+	#epimg {
+		float: none;
+		display: block;
+		width: 100%;
+		/*margin: 1%;*/
+	}
+
+	#musicp {
+		float: none;
+		width: 100%;
+		display: block;
+		margin-top: 2em;
+	}
+}
