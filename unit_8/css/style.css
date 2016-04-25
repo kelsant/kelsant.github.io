@@ -1,3 +1,5 @@
+
+
 @import url(https://fonts.googleapis.com/css?family=Cantarell);;
 @import url(https://fonts.googleapis.com/css?family=Lora);
 @import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:800);
@@ -9,21 +11,8 @@
 	box-sizing: border-box;
 }
 
-.wrapper {
-    width: 100%;
-    margin: auto;
-} 
-
 body {
 	background-image: url("http://i.imgur.com/PGTERCv.jpg");
-	background-size: 100%;
-	font-size: 20px;
-	background-repeat: no-repeat;
-	background-color: #8AE0D4;
-}
-
-.body2 {
-	background-image: none;
 	background-size: 100%;
 	font-size: 20px;
 	background-repeat: no-repeat;
@@ -54,21 +43,11 @@ nav a {
 }
 
 nav a:hover {
-	color: #9379FF;
-	border-bottom: 1px solid #9379FF;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+	color: #E8C155;
+	border-bottom: 1px solid #E8C155;
 }
 
 h1 {
-	/*padding: auto;*/
 	font-family: "Merriweather Sans", sans-serif;
 	font-size: 3.2em;
 	font-weight: 800;
@@ -93,14 +72,6 @@ hr {
 	height: .15em;
 	background-color: #FFFFFF;
 	width: 12em;
-}
-
-.hr2 {
-	border: none;
-	height: .15em;
-	background-color: #FFFFFF;
-	width: 3em;
-	margin: auto;
 }
 
 main { 
@@ -132,51 +103,21 @@ p a {
 	font-size: 1em;
 	letter-spacing: .5px;
 	line-height: 1.5em:;
-	color: #8AE0D4;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
-ul {
-	margin: 70vh; 
-	list-style: none;
-	background-color: none;
-	color: #FFFFFF;
-	font-size: 2em;
-	text-align: center;
+p a:hover {
+	color: #E8C155;
 }
 
-div ul a{
-	color: #FFFFFF;
+div a:hover {
+	color: #E8C155;
 }
 
-div ul a:hover {
-	color: #8AE0D4;
-}
-
-.socialnav {
-    padding: 1em;
-    margin: 70vh; 
-	list-style: none;
-	background-color: none;
-	color: #FFFFFF;
-	font-size: 2.5em;
-	text-align: center;
-}
-
-.footer {
-	background-size: 100%;
-	margin-top: 70vh;
-}
-
-.footer2 {
+div2 {
 	background-size: 100%;
 	margin: 0;
-}
-
-.socialfooter {
-	background-color: none;
-    padding: .5em;
-    text-align: center;
 }
 
 li a:hover {
@@ -189,6 +130,42 @@ section {
 
 img {
 	width: 100%;
+}
+
+label {
+	margin: 0 1em;
+	padding-bottom: .15em;
+	color: #FFFFFF; 
+	font-family: "Cantarell", sans-serif; 
+	font-size: 1em;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: none;
+	text-align: center;
+	display: none;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+} 
+
+.body2 {
+	background-image: none;
+	background-size: 100%;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-color: #8AE0D4;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 .bandcamp {
@@ -216,27 +193,45 @@ img {
 	text-align: center;
 }
 
-footer div a {
-	font-family: "Cantarell", sans-serif;
-	font-size: 3em;
-	padding: 0 1.5em;
-	font-weight: 400:;
-	color: #FFFFFF;
-	text-decoration: none;
-	margin: auto .5em;
+.hr2 {
+	border: none;
+	height: .15em;
+	background-color: #FFFFFF;
+	width: 3em;
+	margin: auto;
 }
 
-footer span a {
-	font-family: "Cantarell", sans-serif;
-	font-size: .8em;
-	font-weight: 400:;
-	color: #FFFFFF;
-	text-decoration: none;
-	display: inline-block;
+.socialnav {
+	text-align: center;	
+	margin-top: 40%;
 }
 
-footer a:hover {
-	color: #9379FF;
+.socialnav2 {
+	text-align:center;
+	margin-top: 4%;
+}
+
+.socialicon {
+	padding: 1em;
+	margin: 0 1em;
+	background-color: none;
+	color: #FFFFFF;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.socialicon2 {
+	padding: 1em;
+	margin: 0 1em;
+	background-color: none;
+	color: #FFFFFF;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	margin: 2em 0 1em;
 }
 
 #epimg {
@@ -250,40 +245,29 @@ footer a:hover {
 	margin-top: 5em;
 }
 
-#mobile {
+#toggle {
 	display: none;
 }
 
-#email {
-	text-decoration: none;
-	font-family: "Lora", serif;
-	font-size: 1em;
-	line-height: 1.5em;
-	letter-spacing: .5px;
-	color: #FFFFFF;
-}
-
-#email:hover {
-	color: #9379FF;
-}
-
-@media only screen and (max-width: 950px) {
-	.socialfooter {
-		padding: 0;
-	}
-	footer div a {
-		padding: 0 .5em;
-		margin: 0;
+@media screen and (max-width: 1085px) {
+	.socialnav {
+		margin-top: 30%;
 	}
 }
 
-@media only screen and (max-width: 780px) {
+@media screen and (max-width: 950px) {
+	.socialicon {
+		margin: 0 .75em;
+	}
+
+	.socialicon2 {
+		margin: 0 .75em;
+	}
+}
+
+@media screen and (max-width: 780px) {
 	body {
 		font-size: 18px;
-	}
-
-	.bodysection {
-		width: 100%;
 	}
 
 	nav {
@@ -306,6 +290,23 @@ footer a:hover {
 		font-size: 1.5em;
 	}
 
+	.bodysection {
+		width: 100%;
+	}
+
+	.socialnav {
+		margin-top: 35%;
+	}
+
+	.socialicon {
+		padding: .5em;
+	}
+
+	.socialicon2 {
+		font-size: 2pem;
+		padding: .2em;
+	}
+
 	#epimg {
 		float: none;
 		display: block;
@@ -318,35 +319,45 @@ footer a:hover {
 		display: block;
 		margin-top: 2em;
 	}
-
 }
 
-@media only screen and (max-width: 515px) {
+@media screen and (max-width: 515px) {
 	body {
 		font-size: 16px;
 		margin: 0;
+		background-repeat: repeat;
 	}
 
-	#mobile {
-		display: block;
-		text-align: left;
-	}
-
-	nav a {
-		float: none;
-		width: auto;
-		padding: .25em 0;
+	nav{
 		display: none;
 	}
 
-	nav:hover a {
+	nav a {
+		font-size: 1.2em;
+	}
+
+	nav a:hover {
+		color: #E8C155;
+		border-bottom: 1px 5px solid #E8C155;
+	}
+
+	nav a:link{
+		display: block;
+		padding:12px;
+		margin:5px;
+	}
+
+	label{
+		text-align: left;
 		display: block;
 	}
 
-	footer div a {
-		padding: 0;
-		font-size: 3em;
-		display: block;
+	h1 {
+		font-size: 1.8em;
+	}
+
+	footer p {
+		font-size: 1.1em;
 	}
 
 	.bodysection {
@@ -354,11 +365,36 @@ footer a:hover {
 		margin: 0;
 	}
 
+	.socialnav {
+		margin-top: 25%;
+	}
+
+	.socialicon {
+		margin: auto;
+		background-color: none;
+		color: #FFFFFF;
+		font-size: 2.8em;
+		text-align: center;
+		display: block
+	}
+
+	.socialicon2 {
+		margin: auto;
+		background-color: none;
+		color: #FFFFFF;
+		font-size: 2em;
+		text-align: center;
+		display: block
+	}
+
+	#toggle:checked + nav{
+		display: block;
+	}
+
 	#epimg {
 		float: none;
 		display: block;
 		width: 100%;
-		/*margin: 1%;*/
 	}
 
 	#musicp {
@@ -367,4 +403,8 @@ footer a:hover {
 		display: block;
 		margin-top: 2em;
 	}
+}
+
+@media screen and (max-width: 420px) {
+
 }
