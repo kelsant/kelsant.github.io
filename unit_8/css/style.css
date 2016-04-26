@@ -1,9 +1,8 @@
-
-
 @import url(https://fonts.googleapis.com/css?family=Cantarell);;
-@import url(https://fonts.googleapis.com/css?family=Lora);
+/*@import url(https://fonts.googleapis.com/css?family=Lora);*/
 @import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:800);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
 
 * {
 	padding: 0;
@@ -24,7 +23,6 @@ header {
 }
 
 nav {
-	float: right;
     padding: auto;
     padding-top: 1em;
 }
@@ -35,7 +33,7 @@ nav a {
 	color: #FFFFFF; 
 	font-family: "Cantarell", sans-serif; 
 	font-size: 1em;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 	font-weight: normal;
 	text-decoration: none;
 	background-color: none;
@@ -88,10 +86,10 @@ h3 {
 }
 
 p {
-	font-family: "Lora", serif;
+	font-family: "Josefin Slab", serif;
 	font-size: 1em;
 	line-height: 1.5em;
-	letter-spacing: .5px;
+	letter-spacing: 1px;
 	color: #FFFFFF;
 	max-width: 25em;
 	margin: auto;
@@ -99,16 +97,17 @@ p {
 }
 
 p a {
-	font-family: "Lora", serif;
+	font-family: "Josefin Slab", serif;
 	font-size: 1em;
 	letter-spacing: .5px;
 	line-height: 1.5em:;
-	color: #FFFFFF;
+	color: #E8C155;
 	text-decoration: none;
 }
 
 p a:hover {
 	color: #E8C155;
+	border-bottom: 1px solid #E8C155;
 }
 
 div a:hover {
@@ -159,6 +158,10 @@ label {
 	background-color: #8AE0D4;
 }
 
+.nav {
+	float: right;
+}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -183,6 +186,10 @@ label {
 	text-align: center;
 } 
 
+.bodysection2 {
+	width:90%;
+}
+
 .bodysection img {
 	max-width: 20em;
 	display: block;
@@ -201,6 +208,15 @@ label {
 	margin: auto;
 }
 
+.hr3 {
+	border: none;
+	height: .15em;
+	background-color: #FFFFFF;
+	width: 1.2em;
+	margin: auto;
+	margin-bottom: .5em;
+}
+
 .socialnav {
 	text-align: center;	
 	margin-top: 40%;
@@ -209,6 +225,12 @@ label {
 .socialnav2 {
 	text-align:center;
 	margin-top: 4%;
+}
+
+.socialnav3 {
+	text-align: center;
+	margin-top: 12%;
+	margin-bottom: 15%;
 }
 
 .socialicon {
@@ -222,16 +244,39 @@ label {
 
 .socialicon2 {
 	padding: 1em;
-	margin: 0 1em;
+	margin:0 1em;
 	background-color: none;
 	color: #FFFFFF;
 	font-size: 2.5em;
 	text-align: center;
 }
 
+.socialicon3 {
+	padding: .75em;
+	background-color: none;
+	color: #FFFFFF;
+	font-size: 2.8em;
+	text-align: center;
+}
+
 .footer {
 	text-align: center;
 	margin: 2em 0 1em;
+}
+
+.aboutwrapper {
+	text-align: center;
+	margin-top: 2%;
+}
+
+.about {
+	width: 70%;
+	display: inline-block;
+}
+
+.profiles {
+	text-align: center;
+	width:50%;
 }
 
 #epimg {
@@ -241,7 +286,7 @@ label {
 
 #musicp {
 	float: right;
-	width: 50%;
+	width: 48%;
 	margin-top: 5em;
 }
 
@@ -249,9 +294,70 @@ label {
 	display: none;
 }
 
+#bandcampicon {
+	width: 2em;
+}
+
+#ty {
+	float: left;
+}
+
+#tyaside {
+	width: 50%;
+	float:right;
+	margin-top: 20%;
+}
+
+#matt {
+	float: right;
+}
+
+#mattaside {
+	width: 50%;
+	float:left;
+	margin-top: 20%;
+}
+
+#mal {
+	float: left;
+}
+
+#malaside {
+	width: 50%;
+	float:right;
+	margin-top: 20%;
+}
+
+#shaun {
+	float: right;
+	margin-bottom: 4%;
+}
+
+#shaunaside {
+	width: 50%;
+	float:left;
+	margin-top: 20%;
+}
+
+#pineapple {
+	float:left;
+	width:40%;
+}
+
+#hey {
+	margin-top:5%;
+	float: right;
+	width:60%;
+	text-align: center;
+}
+
 @media screen and (max-width: 1085px) {
 	.socialnav {
 		margin-top: 30%;
+	}
+
+	#musicp {
+		margin-top: 3.5em;
 	}
 }
 
@@ -263,6 +369,52 @@ label {
 	.socialicon2 {
 		margin: 0 .75em;
 	}
+
+	#musicp {
+		margin-top: 2em;
+	}
+}
+
+
+@media screen and (max-width: 850px) {
+	section {
+		padding-left: none;
+	}
+
+	.bodysection2 {
+		width:100%;
+		text-align: center;
+	}
+
+	.socialnav3 {
+		margin-top: 8%;
+		margin-bottom: 8%;
+	}
+
+	#epimg {
+		float: none;
+		display: block;
+		width: 75%;
+	}
+
+	#musicp {
+		float: none;
+		width: 75%;
+		display: block;
+		margin-top: 2em;
+	}
+
+	#pineapple {
+		float:none;
+		width: 70%;
+		margin-bottom: 4%;
+	}
+
+	#hey {
+		float: none;
+		width: 70%;
+		display: inline;
+	}
 }
 
 @media screen and (max-width: 780px) {
@@ -270,11 +422,10 @@ label {
 		font-size: 18px;
 	}
 
+
 	nav {
-		float: none;
 		padding:auto;
 		padding-top: 0;
-		text-align: center;
 	}
 
 	section {
@@ -290,6 +441,15 @@ label {
 		font-size: 1.5em;
 	}
 
+	.body2 {
+		font-size: 18px;
+	}
+
+	.nav {
+		float: none;
+		text-align:center;
+	}
+
 	.bodysection {
 		width: 100%;
 	}
@@ -303,7 +463,7 @@ label {
 	}
 
 	.socialicon2 {
-		font-size: 2pem;
+		font-size: 2em;
 		padding: .2em;
 	}
 
@@ -321,6 +481,58 @@ label {
 	}
 }
 
+@media screen and (max-width: 625px) {
+
+	#ty {
+		float: none;
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	#tyaside {
+		width: 50%;
+		float:none;
+		margin-top: 2%;
+	}
+
+	#matt {
+		float: none;
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	#mattaside {
+		width: 50%;
+		float:none;
+		margin-top: 2%;
+	}
+
+	#mal {
+		float: none;
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	#malaside {
+		width: 50%;
+		float:none;
+		margin-top: 2%;
+	}
+
+	#shaun {
+		float: none;
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	#shaunaside {
+		width: 50%;
+		float:none;
+		margin-top: 2%;
+		margin-bottom: 7%;
+	}
+}
+
 @media screen and (max-width: 515px) {
 	body {
 		font-size: 16px;
@@ -333,15 +545,18 @@ label {
 	}
 
 	nav a {
-		font-size: 1.2em;
+		font-size: 1.1em;
+		display: block;
+		padding:.5em;
 	}
 
 	nav a:hover {
 		color: #E8C155;
 		border-bottom: 1px 5px solid #E8C155;
+		display: inline-block;
 	}
 
-	nav a:link{
+	nav:link{
 		display: block;
 		padding:12px;
 		margin:5px;
@@ -387,6 +602,16 @@ label {
 		display: block
 	}
 
+	.socialicon3 {
+		margin: auto;
+		background-color: none;
+		color: #FFFFFF;
+		font-size: 2.5em;
+		padding: .25em;
+		text-align: center;
+		display: block
+	}
+
 	#toggle:checked + nav{
 		display: block;
 	}
@@ -394,12 +619,12 @@ label {
 	#epimg {
 		float: none;
 		display: block;
-		width: 100%;
+		width: 80%;
 	}
 
 	#musicp {
 		float: none;
-		width: 100%;
+		width: 80%;
 		display: block;
 		margin-top: 2em;
 	}
