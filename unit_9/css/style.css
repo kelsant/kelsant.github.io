@@ -303,7 +303,7 @@ section > h3 {
 	margin:0 0 1em;
 	text-align: left;
 	position: absolute;
-	top:410px;
+	top:20.5em;
 	left:43%;
 	-webkit-transform:translateX(-50%);
 	-moz-transform:translateX(-50%);
@@ -413,7 +413,7 @@ section > h3 {
 	}
 
 	.live p {
-		top:500px;
+		top:27em;
 		font-size: .9em;
 	}
 
@@ -457,7 +457,7 @@ section > h3 {
 	}
 
 	.live p {
-		top:475px;
+		top:26em;
 		left:45%;
 		font-size: .9em;
 	}
@@ -544,7 +544,7 @@ section > h3 {
 	}
 
 	.live p {
-		top:340px;
+		top:21em;
 		left:42%;
 		font-size: .9em;
 		opacity: 1;
@@ -572,8 +572,8 @@ section > h3 {
 	}
 
 	.live p {
-		top:340px;
-		left:42%;
+		top:21em;
+		left:39%;
 		font-size: .9em;
 		opacity: 1;
 	}
@@ -651,14 +651,14 @@ section > h3 {
 
 	nav a:hover {
 		color: #E8C155;
-		border-bottom: 1px 5px solid #E8C155;
+		border-bottom: 1px .3em solid #E8C155;
 		display: inline-block
 	}
 
 	nav:link{
 		display: block;
-		padding:12px;
-		margin:5px;
+		padding:.75em;
+		margin:.3em;
 	}
 
 	label{
@@ -712,8 +712,8 @@ section > h3 {
 	}
 
 	.live p {
-		top:308px;
-		left:42%;
+		top:22em;
+		left:40%;
 		font-size: .8em;
 		opacity: 1;
 	}
