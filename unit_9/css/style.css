@@ -1,0 +1,737 @@
+@import url(https://fonts.googleapis.com/css?family=Cantarell);;
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:800);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("http://i.imgur.com/PGTERCv.jpg");
+	background-size: 100%;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-color: #8AE0D4;
+}
+
+header {
+    padding: auto;
+}
+
+nav {
+    padding: auto;
+    padding-top: 1em;
+}
+
+nav a {
+	margin: 0 1em;
+	padding-bottom: .15em;
+	color: #FFFFFF; 
+	font-family: "Cantarell", sans-serif; 
+	font-size: 1em;
+	letter-spacing: .5px;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: none;
+	text-align: center;
+}
+
+nav a:hover {
+	color: #E8C155;
+	border-bottom: 1px solid #E8C155;
+}
+
+h1 {
+	font-family: "Merriweather Sans", sans-serif;
+	font-size: 3.2em;
+	font-weight: 800;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: .3em;
+	margin-bottom:.5em;
+}
+
+h2 {
+	font-family: "Merriweather Sans", sans-serif;
+	font-size: 2em;
+	font-weight: 800;
+	line-height: 1em;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: auto;
+}
+
+hr {
+	border: none;
+	height: .15em;
+	background-color: #FFFFFF;
+	width: 12em;
+}
+
+main { 
+	top: 0;
+	background-size: 100%;
+}
+
+h3 {
+	padding: 0;
+	font-family: "Cantarell", sans-serif;
+	font-size: 2.5em;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+p {
+	font-family: "Josefin Slab", serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	max-width: 25em;
+	margin: auto;
+	margin-bottom: 1.5em;
+}
+
+p a {
+	font-family: "Josefin Slab", serif;
+	font-size: 1em;
+	letter-spacing: .5px;
+	line-height: 1.5em:;
+	color: #E8C155;
+	text-decoration: none;
+}
+
+p a:hover {
+	color: #E8C155;
+	border-bottom: 1px solid #E8C155;
+}
+
+div a:hover {
+	color: #E8C155;
+}
+
+li a:hover {
+	color: #8AE0D4;
+}
+
+img {
+	width: 100%;
+}
+
+label {
+	margin: 0 1em;
+	padding-bottom: .15em;
+	color: #FFFFFF; 
+	font-family: "Cantarell", sans-serif; 
+	font-size: 1em;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: none;
+	text-align: center;
+	display: none;
+}
+
+section {
+	text-align: center;
+}
+
+section > h3 {
+	padding: 0;
+	padding-top:.5em;
+	font-family: "Josefin Slab", serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 1em;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+} 
+
+.body2 {
+	background-image: none;
+	background-size: 100%;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-color: #8AE0D4;
+}
+
+.nav {
+	float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.bandcamp {
+	list-style: none;
+	color: #FFFFFF;
+	font-size: 2.5em;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+.bodysection {
+	width: 70%;
+	margin: 2% auto;
+	text-align: center;
+} 
+
+.bodysection2 {
+	width:100%;
+	margin-top:7%;
+	text-align: center
+}
+
+.bodysection img {
+	max-width: 20em;
+	display: block;
+	margin: auto;
+}
+
+.bandcamp {
+	text-align: center;
+}
+
+.hr2 {
+	border: none;
+	height: .15em;
+	background-color: #FFFFFF;
+	width: 3em;
+	margin: auto;
+}
+
+.hr3 {
+	border: none;
+	height: .15em;
+	background-color: #FFFFFF;
+	width: 1.2em;
+	margin: auto;
+	margin-bottom: .5em;
+}
+
+.socialnav {
+	text-align: center;	
+	margin-top: 42%;
+}
+
+.socialnav2 {
+	text-align:center;
+	margin-top: 4%;
+}
+
+.socialnav3 {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.socialicon {
+	padding: 1em;
+	margin: 0 1em;
+	background-color: none;
+	color: #FFFFFF;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.socialicon2 {
+	padding: 1em;
+	margin:0 1em;
+	background-color: none;
+	color: #FFFFFF;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.socialicon3 {
+	padding: .75em;
+	background-color: none;
+	color: #FFFFFF;
+	font-size: 2.8em;
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	margin: 2em 0 1em;
+}
+
+.aboutwrapper {
+	text-align: center;
+	margin-top: 2%;
+}
+
+.about {
+	width: 70%;
+	display: inline-block;
+}
+
+.profiles {
+	text-align: center;
+	width:50%;
+}
+
+.live {
+	text-align: center;
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+	background-color:#E8C155;
+}
+
+.live:hover > p {
+	opacity: 1;
+}
+
+.live p {
+	color: #FFFFFF;
+	margin:0 0 1em;
+	text-align: left;
+	position: absolute;
+	top:410px;
+	left:43%;
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	transform:translateX(-50%);
+	-webkit-transition:opacity ease-in-out .75s;
+	-moz-transition:opacity ease-in-out .75s;
+	-o-transition:opacity ease-in-out .75s;
+	transition: opacity ease-in-out .75s;
+	opacity: 0;
+}
+
+#liveimg {
+	width: 65%;
+	padding-bottom:.5em;
+}
+
+#epimg {
+	float: left;
+	width: 50%;
+}
+
+#musicp {
+	float: right;
+	width: 48%;
+	margin-top: 5em;
+}
+
+#toggle {
+	display: none;
+}
+
+#bandcampicon {
+	width: 2em;
+}
+
+#ty {
+	float: left;
+}
+
+#tyaside {
+	width: 50%;
+	float:right;
+	margin-top: 19%;
+	line-height: 1.75em;
+}
+
+#matt {
+	float: right;
+}
+
+#mattaside {
+	width: 50%;
+	float:left;
+	margin-top: 19%;
+	line-height: 1.75em;
+}
+
+#mal {
+	float: left;
+}
+
+#malaside {
+	width: 50%;
+	float:right;
+	margin-top: 19%;
+	line-height: 1.75em;
+}
+
+#shaun {
+	float: right;
+	margin-bottom: 4%;
+}
+
+#shaunaside {
+	width: 50%;
+	float:left;
+	margin-top: 19%;
+	line-height: 1.75em;
+}
+
+#hey {
+	margin-top:3%;
+	font-size: 1.3em
+}
+
+#contact {
+	margin:0;
+}
+
+#hr3 {
+	border: none;
+	height: .15em;
+	background-color: #FFFFFF;
+	width: 10em;
+	margin-top: 2em;
+	margin-bottom:1em;
+}
+
+#footerp {
+	font-size: .8em;
+}
+
+@media screen and (max-width: 1085px) {
+	.socialnav {
+		margin-top: 33%;
+	}
+
+	.live p {
+		top:500px;
+		font-size: .9em;
+	}
+
+	#liveimg {
+		width:75%;
+	}
+
+	#musicp {
+		margin-top: 3.5em;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.socialicon {
+		margin: 0 .75em;
+	}
+
+	.socialicon2 {
+		margin: 0 .75em;
+	}
+
+	#musicp {
+		margin-top: 2em;
+	}
+}
+
+
+@media screen and (max-width: 850px) {
+	section {
+		padding-left: none;
+	}
+
+	.bodysection2 {
+		width:100%;
+		text-align: center;
+	}
+
+	.socialnav3 {
+		margin-top: 8%;
+		margin-bottom: 8%;
+	}
+
+	.live p {
+		top:475px;
+		left:45%;
+		font-size: .9em;
+	}
+
+	#epimg {
+		float: none;
+		display: block;
+		width: 75%;
+	}
+
+	#musicp {
+		float: none;
+		width: 75%;
+		display: block;
+		margin-top: 2em;
+	}
+
+	#pineapple {
+		float:none;
+		width: 70%;
+		margin-bottom: 4%;
+	}
+
+	#hey {
+		float: none;
+		width: 70%;
+		display: inline;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	body {
+		font-size: 18px;
+	}
+
+	nav {
+		padding:auto;
+		padding-top: 0;
+	}
+
+	section {
+		padding-left: 0;
+	}
+
+	h1 {
+		font-size: 2em;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	.body2 {
+		font-size: 18px;
+	}
+
+	.nav {
+		float: none;
+		text-align:center;
+	}
+
+	.bodysection {
+		width: 100%;
+	}
+
+	.socialnav {
+		margin-top: 38%;
+	}
+
+	.socialicon {
+		padding: .5em;
+	}
+
+	.socialicon2 {
+		font-size: 2em;
+		padding: .2em;
+	}
+
+	.live {
+		width:80%;
+		margin-left:10%;
+		margin-right:10%;
+	}
+
+	.live p {
+		top:340px;
+		left:42%;
+		font-size: .9em;
+		opacity: 1;
+	}
+
+	#epimg {
+		float: none;
+		display: block;
+		width: 75%;
+	}
+
+	#musicp {
+		float: none;
+		width: 75%;
+		display: block;
+		margin-top: 2em;
+	}
+}
+
+@media screen and (max-width: 625px) {
+	.live {
+		width:100%;
+		margin-left:0;
+		margin-right:0;
+	}
+
+	.live p {
+		top:340px;
+		left:42%;
+		font-size: .9em;
+		opacity: 1;
+	}
+
+	#liveimg {
+		width:80%;
+	}
+
+	#ty {
+		float: none;
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	#tyaside {
+		width: 50%;
+		float:none;
+		margin-top: 2%;
+	}
+
+	#matt {
+		float: none;
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	#mattaside {
+		width: 50%;
+		float:none;
+		margin-top: 2%;
+	}
+
+	#mal {
+		float: none;
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	#malaside {
+		width: 50%;
+		float:none;
+		margin-top: 2%;
+	}
+
+	#shaun {
+		float: none;
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	#shaunaside {
+		width: 50%;
+		float:none;
+		margin-top: 2%;
+		margin-bottom: 7%;
+	}
+}
+
+@media screen and (max-width: 515px) {
+	body {
+		font-size: 16px;
+		margin: 0;
+		background-repeat: repeat;
+	}
+
+	nav{
+		display: none;
+	}
+
+	nav a {
+		font-size: 1.1em;
+		display: block;
+		padding:.5em;
+	}
+
+	nav a:hover {
+		color: #E8C155;
+		border-bottom: 1px 5px solid #E8C155;
+		display: inline-block
+	}
+
+	nav:link{
+		display: block;
+		padding:12px;
+		margin:5px;
+	}
+
+	label{
+		text-align: left;
+		display: block;
+	}
+
+	h1 {
+		font-size: 1.8em;
+	}
+
+	footer p {
+		font-size: 1.1em;
+	}
+
+	.bodysection {
+		width: 100%;
+		margin: 0;
+	}
+
+	.socialnav {
+		margin-top: 25%;
+	}
+
+	.socialicon {
+		margin: auto;
+		background-color: none;
+		color: #FFFFFF;
+		font-size: 2.8em;
+		text-align: center;
+		display: block
+	}
+
+	.socialicon2 {
+		margin: auto;
+		background-color: none;
+		color: #FFFFFF;
+		font-size: 2em;
+		text-align: center;
+		display: block
+	}
+
+	.socialicon3 {
+		margin: auto;
+		background-color: none;
+		color: #FFFFFF;
+		font-size: 2.5em;
+		padding: .25em;
+		text-align: center;
+		display: block
+	}
+
+	.live p {
+		top:308px;
+		left:42%;
+		font-size: .8em;
+		opacity: 1;
+	}
+
+	#toggle:checked + nav{
+		display: block;
+	}
+
+	#epimg {
+		float: none;
+		display: block;
+		width: 80%;
+	}
+
+	#musicp {
+		float: none;
+		width: 80%;
+		display: block;
+		margin-top: 2em;
+	}
+}
